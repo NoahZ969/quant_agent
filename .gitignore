@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Data and run outputs (rebuilt by scripts, never committed)
+data/*
+!data/.gitkeep
+runs/*
+!runs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

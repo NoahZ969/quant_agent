@@ -1,0 +1,18 @@
+[project]
+name = "quant-agent"
+version = "0.1.0"
+description = "A small multi-agent research loop: planner and researcher agents, a deterministic evaluator with a protected holdout, and an orchestrator."
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "python-dotenv",
+    "yfinance",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
